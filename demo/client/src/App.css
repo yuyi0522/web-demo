@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, "Microsoft JhengHei", sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.cards div {
+  flex: 1;
+  padding: 18px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #00000012;
+}
+
+form, .filters {
+  display: flex;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+input, select, button {
+  padding: 9px;
+  font-size: 15px;
+}
+
+input {
+  flex: 1;
+}
+
+button {
+  border: 0;
+  background: #2563eb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+textarea {
+  width: 100%;
+  padding: 9px;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.ai-result {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 5px solid #7c3aed;
+  border-radius: 8px;
+  background: #f5f3ff;
+}
+
+.ai-result h2,
+.ai-result h3 {
+  margin-top: 0;
+}
